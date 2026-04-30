@@ -3,40 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Angelika Belle | Official</title>
-  <meta name="description" content="Official website of Angelika Belle, Nigerian singer, songwriter, and performer. Afro-Reggaeton, R&B Soul, Reggae, Afrobeats.">
+  <title>Angelika Belle | Nigerian Singer, Songwriter & Performer</title>
+  <meta name="description" content="Official website of Angelika Belle, a Nigerian singer, songwriter and performer blending Afro-Reggaeton, R&B, soul, reggae and Afrobeats.">
+  <link rel="canonical" href="https://angelikabelle.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Angelika Belle">
+  <meta property="og:title" content="Angelika Belle | Nigerian Singer, Songwriter & Performer">
+  <meta property="og:description" content="Angelika Belle blends calm vocals with infectious bounce, creating Afro-Reggaeton, R&B, reggae and Afrobeats records.">
+  <meta property="og:url" content="https://angelikabelle.com/">
+  <meta property="og:image" content="https://angelikabelle.com/assets/images/home-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Angelika Belle | Nigerian Singer, Songwriter & Performer">
+  <meta name="twitter:description" content="Official website of Angelika Belle, Nigerian singer, songwriter and performer.">
+  <meta name="twitter:image" content="https://angelikabelle.com/assets/images/home-hero.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://angelikabelle.com/#website",
+        "name": "Angelika Belle",
+        "url": "https://angelikabelle.com/",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://angelikabelle.com/#angelika-belle",
+        "name": "Angelika Belle",
+        "url": "https://angelikabelle.com/",
+        "image": "https://angelikabelle.com/assets/images/home-hero.png",
+        "jobTitle": "Singer, songwriter and performer",
+        "nationality": "Nigerian",
+        "birthPlace": {
+          "@type": "Place",
+          "name": "Port Harcourt, Rivers State, Nigeria"
+        },
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Lagos, Nigeria"
+        },
+        "genre": ["Afro-Reggaeton", "R&B", "Soul", "Reggae", "Afrobeats", "Alternative"],
+        "description": "Angelika Belle is a Nigerian singer, songwriter and performer blending Afro-Reggaeton, R&B, soul, reggae and Afrobeats.",
+        "sameAs": [
+          "https://open.spotify.com/artist/2YsWO9qpA0NxmChqDrpA8Y",
+          "https://music.apple.com/ng/artist/angelika-belle/1464007527",
+          "https://www.youtube.com/@angelikabelle",
+          "https://www.deezer.com/en/artist/135697372",
+          "https://tidal.com/artist/25813249",
+          "https://instagram.com/angelika_belle",
+          "https://tiktok.com/@angelika_belle",
+          "https://x.com/angelika_belle",
+          "https://audiomack.com/angelika_belle"
+        ]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://angelikabelle.com/#webpage",
+        "url": "https://angelikabelle.com/",
+        "name": "Angelika Belle Official Website",
+        "isPartOf": { "@id": "https://angelikabelle.com/#website" },
+        "about": { "@id": "https://angelikabelle.com/#angelika-belle" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://angelikabelle.com/assets/images/home-hero.png"
+        }
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon-ab.svg">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="page-home">
 
-  <!-- Navigation -->
+  <div class="loader" id="loader">
+    <img src="assets/images/ab-loader.gif" alt="Loading" class="loader-image">
+  </div>
+
   <nav class="nav" id="nav">
-    <a href="#home" class="nav-logo">
-      <span class="logo-a">A</span><span class="logo-b">B</span>
-    </a>
+    <a href="index.html" class="nav-logo">Angelika Belle</a>
     <div class="nav-links" id="navLinks">
-      <a href="#home" data-nav>Home</a>
-      <a href="#about" data-nav>About</a>
-      <a href="#music" data-nav>Music</a>
-      <a href="#media" data-nav>Media</a>
-      <a href="#contact" data-nav>Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="music.html">Music</a>
+      <a href="press.html">Press</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
+<button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <img src="assets/icons/menu.svg" alt="" width="24" height="24" loading="lazy">
+        </button>
   </nav>
 
-  <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <div class="mobile-menu-inner">
-      <a href="#home" data-mobile-link>Home</a>
-      <a href="#about" data-mobile-link>About</a>
-      <a href="#music" data-mobile-link>Music</a>
-      <a href="#media" data-mobile-link>Media</a>
-      <a href="#contact" data-mobile-link>Contact</a>
+      <a href="index.html" data-mobile-link>Home</a>
+      <a href="about.html" data-mobile-link>About</a>
+      <a href="music.html" data-mobile-link>Music</a>
+      <a href="press.html" data-mobile-link>Press</a>
+      <a href="contact.html" data-mobile-link>Contact</a>
       <div class="mobile-menu-socials">
         <a href="https://instagram.com/angelika_belle" target="_blank" rel="noopener noreferrer">IG</a>
         <a href="https://x.com/angelika_belle" target="_blank" rel="noopener noreferrer">X</a>
@@ -46,418 +114,52 @@
   </div>
 
   <main>
-
-    <!-- ══════════ HERO ══════════ -->
-    <section class="hero" id="home">
+    <section class="hero hero-home" id="home">
       <div class="hero-bg-image" data-parallax data-parallax-speed="0.16">
-        <img src="assets/images/angelika_belle_1775850807431.jpeg" alt="Angelika Belle">
+        <img src="assets/images/home-hero.png" alt="Angelika Belle">
       </div>
       <div class="hero-grain"></div>
       <div class="hero-overlay"></div>
       <div class="hero-content">
-        <h1 class="hero-title anim-up d1">
-          <span class="hero-line hero-line-1">Angelika Belle</span>
-        </h1>
+        <div class="hero-home-copy">
+        <h1 class="sr-only">Angelika Belle official website</h1>
         <p class="hero-deck anim-up d2">
-          My sound blends Afro-Reggaeton, R&amp;B soul, reggae, and Afro influences into records that feel both soothing and powerful.
+          Angelika Belle blends calm vocals with infectious bounce, creating a sound that feels smooth, confident and impossible to resist.
         </p>
         <div class="hero-btns anim-up d3">
-          <a href="#music" class="btn btn-hot">Listen Now</a>
-          <a href="#about" class="btn btn-ghost">The Story</a>
+          <a href="music.html" class="btn btn-hot">Enter Music</a>
+          <a href="about.html" class="btn btn-ghost">Read Her Story</a>
+        </div>
         </div>
       </div>
-      <div class="hero-bottom">
-        <div class="hero-scroll-line anim-up d3"></div>
-      </div>
-    </section>
-
-    <!-- ══════════ FEATURED RELEASE ══════════ -->
-    <section class="featured" id="featured">
-      <div class="container">
-        <div class="section-divider scroll-in">
-          <span>Latest Drop</span>
-        </div>
-        <div class="featured-layout">
-          <div class="featured-cover scroll-in" data-tilt>
-            <img src="assets/images/release - What You Like 2026.jpg" alt="What You Like artwork by Angelika Belle">
-          </div>
-          <div class="featured-info scroll-in sd1">
-            <h2 class="featured-title">What You<br>Like</h2>
-            <p class="featured-desc">
-              The latest drop from Angelika Belle, blending her signature
-              soothing-yet-powerful vocals with infectious Afro-Reggaeton
-              riddims. The voice they call "natural autotune" hits different
-              on this one.
-            </p>
-            <div class="stream-links">
-              <a href="https://open.spotify.com/album/3Im5jsHHzlIuIhIqN92DNZ?si=1&nd=1&dlsi=f3da75b918064ee2" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
-                Spotify
-              </a>
-              <a href="https://music.apple.com/us/album/what-you-like-single/1877894327" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-                Apple Music
-              </a>
-              <a href="https://www.youtube.com/watch?v=a4DGXqqy0M4&list=OLAK5uy_kscFLRUIQIiC4fAb8mkAQQVLJJwhYZG60&index=1" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                YouTube
-              </a>
-              <a href="https://www.deezer.com/en/album/920980051" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <rect x="3" y="14" width="3" height="7" rx="1"></rect>
-                  <rect x="8" y="11" width="3" height="10" rx="1"></rect>
-                  <rect x="13" y="8" width="3" height="13" rx="1"></rect>
-                  <rect x="18" y="5" width="3" height="16" rx="1"></rect>
-                </svg>
-                Deezer
-              </a>
-              <a href="https://tidal.com/album/499745073" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 4 8.5 7.5 12 11l3.5-3.5L12 4Zm-5 5L3.5 12.5 7 16l3.5-3.5L7 9Zm10 0-3.5 3.5L17 16l3.5-3.5L17 9Zm-5 5L8.5 17.5 12 21l3.5-3.5L12 14Z"></path>
-                </svg>
-                Tidal
-              </a>
-              <a href="https://www.boomplay.com/albums/125982179?srModel=openapi_featurefm&ffm=FFM_e9ed7d1b9ba32bbe08b4fdb4332a2c8f" class="stream-btn" target="_blank" rel="noopener noreferrer">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                  <path d="M12 2.5a9.5 9.5 0 1 0 9.5 9.5A9.5 9.5 0 0 0 12 2.5Zm-1.8 5.1 5.7 4.4-5.7 4.4V7.6Z"></path>
-                </svg>
-                Boomplay
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="hero-socials hero-socials-home anim-up d3">
+        <a href="https://open.spotify.com/artist/2YsWO9qpA0NxmChqDrpA8Y" class="social-circle" aria-label="Spotify" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+        </a>
+        <a href="https://music.apple.com/ng/artist/angelika-belle/1464007527" class="social-circle" aria-label="Apple Music" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@angelikabelle" class="social-circle" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://audiomack.com/angelika_belle" class="social-circle" aria-label="Audiomack" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/audiomack.svg" alt="" width="20" height="20" loading="lazy" decoding="async">
+        </a>
+        <a href="https://www.deezer.com/en/artist/135697372" class="social-circle" aria-label="Deezer" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/deezer.svg" alt="" width="20" height="20" loading="lazy" decoding="async">
+        </a>
+        <a href="https://instagram.com/angelika_belle" class="social-circle" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://tiktok.com/@angelika_belle" class="social-circle" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+        </a>
+        <a href="https://x.com/angelika_belle" class="social-circle" aria-label="X" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
       </div>
     </section>
-
-    <!-- ══════════ STATS ══════════ -->
-    <section class="stats-section">
-      <div class="stats-grid">
-        <div class="stat-card scroll-in" style="--i:0">
-          <span class="stat-number" data-counter data-target="200000" data-suffix="K+">0</span>
-          <span class="stat-label">Streams</span>
-        </div>
-        <div class="stat-card scroll-in" style="--i:1">
-          <span class="stat-number" data-counter data-target="30000" data-suffix="K+">0</span>
-          <span class="stat-label">Fan Videos</span>
-        </div>
-        <div class="stat-card scroll-in" style="--i:2">
-          <span class="stat-number" data-counter data-target="66000" data-suffix="K+">0</span>
-          <span class="stat-label">YouTube Views</span>
-        </div>
-        <div class="stat-card scroll-in" style="--i:3">
-          <span class="stat-number" data-counter data-target="18000" data-suffix="K+">0</span>
-          <span class="stat-label">Instagram</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══════════ PULL QUOTE ══════════ -->
-    <section class="quote-section">
-      <div class="quote-grain"></div>
-      <div class="quote-marks" aria-hidden="true">
-        <span class="quote-mark quote-mark-open">&ldquo;</span>
-        <span class="quote-mark quote-mark-close">&rdquo;</span>
-      </div>
-      <div class="container">
-        <blockquote class="poster-quote scroll-in">
-          Music is my diary. I just let everybody read it.
-        </blockquote>
-        <cite class="poster-cite scroll-in sd1">Angelika Belle</cite>
-      </div>
-    </section>
-
-    <!-- ══════════ ABOUT ══════════ -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="about-layout">
-          <div class="about-photos scroll-in">
-            <div class="about-photo-main" data-tilt>
-              <img src="assets/images/angelika_belle_1775850936789.jpeg" alt="Angelika Belle portrait">
-            </div>
-            <div class="about-photo-small" data-tilt>
-              <img src="assets/images/angelika_belle_1775850940435.jpeg" alt="Angelika Belle">
-            </div>
-            <div class="about-stamp spin-slow">
-              <span>Artist<br>&amp;<br>Songwriter</span>
-            </div>
-          </div>
-          <div class="about-text">
-            <div class="section-divider scroll-in">
-              <span>About Angelika Belle</span>
-            </div>
-            <h2 class="section-title scroll-in sd1">Rasta Maria</h2>
-            <div class="about-genres scroll-in sd1">
-              <span>Afro-Reggaeton</span>
-              <span>R&amp;B Soul</span>
-              <span>Reggae</span>
-              <span>Afrobeats</span>
-            </div>
-            <div class="about-body scroll-in sd2">
-              <p>
-                Born and raised in Port Harcourt, Rivers State, Angelika Belle
-                is a Nigerian singer, songwriter, and performer blending
-                Afro-Reggaeton, R&B, soul, reggae, and contemporary Afrobeats.
-                Her standout trait? A soothing yet powerful voice that fans
-                describe as having a natural autotune effect.
-              </p>
-              <p>
-                A Theatre Arts graduate from the University of Port Harcourt,
-                Angelika spent six years as lead singer of The Blue Pearls Band,
-                where she sharpened her vocals and stagecraft. After moving to
-                Lagos in 2018 for NYSC, she started posting reggae renditions
-                of Afrobeats songs online, and the internet took notice.
-              </p>
-              <p>
-                The late Sound Sultan discovered her through her reggae cover of
-                "Faya Faya" and signed her to Naija Ninjas, where she released
-                "Sho'Ma" and "Broken or Not." Now independent, Angelika has
-                worked with Davido, Kizz Daniel, Fiokee, and the Loud Urban
-                Choir. Her hit "Dreadlocks" went viral on TikTok in 2024 with
-                over 15,000 user-generated videos, trending in the US, Haiti,
-                and Nigeria.
-              </p>
-            </div>
-            <div class="about-quote-box scroll-in sd3">
-              <p>"Part Whoopi in Sister Act, part Maria from Sound of Music: strength, spirituality, calmness, and grounded femininity. That's the Rasta Maria energy."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══════════ MUSIC ══════════ -->
-    <section class="music" id="music">
-      <div class="container">
-        <div class="section-header-center">
-          <div class="section-divider scroll-in section-divider-center">
-            <span>Discography</span>
-          </div>
-          <h2 class="section-title scroll-in sd1">The Music</h2>
-        </div>
-        <div class="music-grid">
-          <article class="music-card scroll-in" style="--i:0">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - What You Like 2026.jpg" alt="What You Like cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>What You Like</h3>
-            <span>2026 &bull; Latest Single</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:1">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - dreadlocks remix 2025.jpg" alt="Dreadlocks remix cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>Dreadlocks (Remix)</h3>
-            <span>2025 &bull; ft. Elijah</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:2">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - Burn 2020.jpg" alt="Burn cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>Burn</h3>
-            <span>ft. DanDizzy</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:3">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - shoma 2021.png" alt="Sho'Ma cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>Sho'Ma</h3>
-            <span>Galaxy Award Winner</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:4">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - Dreadlocks 2020.jpg" alt="Dreadlocks cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>Dreadlocks</h3>
-            <span>2020 Single</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:5">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - Fall ft Fiokee 2023.png" alt="Fall featuring Fiokee cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>Fall</h3>
-            <span>2023 • ft. Fiokee</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:6">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - My Love 2023.png" alt="My Love cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>My Love</h3>
-            <span>2023 Single</span>
-          </article>
-          <article class="music-card scroll-in" style="--i:7">
-            <div class="music-card-img" data-tilt>
-              <img src="assets/images/release - 1n Day 2021.jpg" alt="1n Day cover art">
-              <button class="play-fab" aria-label="Play">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-              </button>
-            </div>
-            <h3>1n Day</h3>
-            <span>2021 Single</span>
-          </article>
-        </div>
-        <div class="stream-everywhere scroll-in">
-          <p>Stream everywhere</p>
-          <div class="stream-pills">
-            <a href="#" class="pill">Spotify</a>
-            <a href="#" class="pill">Apple Music</a>
-            <a href="#" class="pill">YouTube</a>
-            <a href="#" class="pill">Audiomack</a>
-            <a href="#" class="pill">Boomplay</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══════════ MEDIA / EPK ══════════ -->
-    <section class="media" id="media">
-      <div class="container">
-        <div class="section-header-center">
-          <div class="section-divider scroll-in section-divider-center">
-            <span>Press &amp; Media</span>
-          </div>
-          <h2 class="section-title scroll-in sd1">Press</h2>
-        </div>
-        <div class="epk-layout">
-          <div class="epk-bio scroll-in">
-            <h3>Bio</h3>
-            <p>
-              Angelika Belle is a Nigerian singer, songwriter, and performer
-              whose music fuses Afro-Reggaeton, R&B, soul, reggae, and
-              contemporary Afrobeats. Known for her soothing yet powerful
-              voice, often described as having a "natural autotune" quality,
-              she brings a Gen-Z Bob Marley aesthetic to every stage she
-              commands.
-            </p>
-            <p>
-              Discovered by the late Sound Sultan through her viral reggae
-              cover of "Faya Faya," Angelika has since collaborated with
-              Davido, Kizz Daniel, and Fiokee. Her 2022 Galaxy Music Award
-              win for Best Alternative Song ("Sho'Ma") and the viral TikTok
-              explosion of "Dreadlocks" in 2024 (15,000+ user-generated
-              videos, trending across the US, Haiti, and Nigeria) have
-              cemented her as one of the most exciting voices in African music.
-            </p>
-          </div>
-          <div class="epk-press scroll-in sd1">
-            <h3>Career Highlights</h3>
-            <div class="press-card">
-              <p>&ldquo;Best Alternative Song &mdash; Sho'Ma&rdquo;</p>
-              <cite>Galaxy Music Awards 2022</cite>
-            </div>
-            <div class="press-card">
-              <p>Two Galaxy Music Award nominations &bull; Signed to Naija Ninjas (2021) &bull; Singles: &ldquo;Sho'Ma,&rdquo; &ldquo;Broken or Not&rdquo;</p>
-              <cite>Career Milestones</cite>
-            </div>
-            <div class="press-card">
-              <p>&ldquo;Dreadlocks&rdquo; resurged on TikTok with 15,000+ user-generated videos, trending in the US, Haiti &amp; Nigeria</p>
-              <cite>TikTok Viral Moment, 2024</cite>
-            </div>
-            <div class="press-card">
-              <p>2025 &ldquo;Dreadlocks&rdquo; remix ft. Elijah from Seychelles &bull; Performed at Big 100 Labour Day concert, Victoria, Seychelles</p>
-              <cite>International Reach</cite>
-            </div>
-            <div class="press-card">
-              <p>Bole Festival &bull; HERTITUDE &bull; Jameson Distillery Tour Lagos &bull; PLUGGED the Music Festival &bull; Aso Rock &bull; Flytime Fest with Martell</p>
-              <cite>Live Performances</cite>
-            </div>
-          </div>
-        </div>
-        <div class="epk-photos scroll-in">
-          <h3>Photos</h3>
-          <div class="press-photo-grid">
-            <div class="press-photo" data-tilt><img src="assets/images/angelika_belle_1775850807431.jpeg" alt="Press photo" loading="lazy"></div>
-            <div class="press-photo" data-tilt><img src="assets/images/angelika_belle_1775850811748.jpeg" alt="Press photo" loading="lazy"></div>
-            <div class="press-photo" data-tilt><img src="assets/images/angelika_belle_1775850936789.jpeg" alt="Press photo" loading="lazy"></div>
-            <div class="press-photo" data-tilt><img src="assets/images/angelika_belle_1775850829840.jpeg" alt="Press photo" loading="lazy"></div>
-          </div>
-          <a href="#" class="btn btn-outline-dark btn-sm">Download EPK</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ══════════ CONTACT ══════════ -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="contact-layout contact-layout-single">
-          <div class="contact-left">
-            <div class="section-divider scroll-in">
-              <span>Say Hey</span>
-            </div>
-            <h2 class="section-title section-title-light scroll-in sd1">Let's<br>Link Up</h2>
-            <div class="contact-channels scroll-in sd2">
-              <div class="channel">
-                <h4>Email</h4>
-                <a href="mailto:bookings@angelikabelle.com">bookings@angelikabelle.com</a>
-              </div>
-              <div class="channel">
-                <h4>Phone</h4>
-                <a href="tel:+2348038676580">+234 803 867 6580</a>
-              </div>
-              <div class="channel">
-                <h4>Instagram</h4>
-                <a href="https://instagram.com/angelika_belle" target="_blank" rel="noopener noreferrer">@angelika_belle</a>
-              </div>
-            </div>
-            <div class="contact-socials scroll-in sd3">
-              <a href="https://instagram.com/angelika_belle" class="social-circle" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-              </a>
-              <a href="https://tiktok.com/@angelika_belle" class="social-circle" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
-              </a>
-              <a href="https://x.com/angelika_belle" class="social-circle" aria-label="X" target="_blank" rel="noopener noreferrer">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <span class="footer-name">Angelika Belle</span>
-          <p>Afro-Reggaeton &bull; R&B Soul &bull; Reggae &bull; Afrobeats</p>
-        </div>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#music">Music</a>
-          <a href="#media">Media</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <div class="footer-copy">
-          <p>&copy; 2026 Angelika Belle. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
