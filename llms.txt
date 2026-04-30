@@ -20,10 +20,10 @@ Official website: https://angelikabelle.com/
 
 ## Important pages
 
-- About: https://angelikabelle.com/about.html
-- Music: https://angelikabelle.com/music.html
-- Press: https://angelikabelle.com/press.html
-- Contact: https://angelikabelle.com/contact.html
+- About: https://angelikabelle.com/about/
+- Music: https://angelikabelle.com/music/
+- Press: https://angelikabelle.com/press/
+- Contact: https://angelikabelle.com/contact/
 
 ## Official profiles
 

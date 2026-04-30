@@ -833,7 +833,7 @@ body.page-press main {
 }
 
 .page-hero-music .page-hero-media img {
-  object-position: center 35%;
+  object-position: center calc(35% + 150px);
 }
 
 .page-press .page-hero-media img {
@@ -880,7 +880,7 @@ body.page-press main {
 }
 
 .page-hero-music .page-hero-media img {
-  object-position: center 35%;
+  object-position: center calc(35% + 150px);
 }
 
 .page-music .page-hero-content {
@@ -2332,14 +2332,20 @@ body.page-press main {
   inset: 0;
   background:
     linear-gradient(90deg, rgba(9, 7, 5, 0.84), rgba(9, 7, 5, 0.58)),
-    url("../assets/images/angelika_belle_1775850940435.jpeg") center 28% / cover no-repeat;
+    image-set(
+      url("../assets/images/angelika_belle_1775850940435.webp") type("image/webp"),
+      url("../assets/images/angelika_belle_1775850940435.jpeg") type("image/jpeg")
+    ) center 28% / cover no-repeat;
   opacity: 0.34;
   mix-blend-mode: screen;
   pointer-events: none;
 }
 
 .page-contact .contact::after {
-  background: url("../assets/images/contact1.png") center 22% / cover no-repeat;
+  background: image-set(
+    url("../assets/images/contact1.webp") type("image/webp"),
+    url("../assets/images/contact1.jpg") type("image/jpeg")
+  ) center 22% / cover no-repeat;
 }
 
 .contact .container {
