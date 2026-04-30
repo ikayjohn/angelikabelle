@@ -1,0 +1,8 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+RewriteRule ^about\.html$ /about/ [R=301,L]
+RewriteRule ^music\.html$ /music/ [R=301,L]
+RewriteRule ^press\.html$ /press/ [R=301,L]
+RewriteRule ^contact\.html$ /contact/ [R=301,L]
